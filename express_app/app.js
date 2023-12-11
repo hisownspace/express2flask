@@ -9,7 +9,7 @@ const cookieParser = require("cookie-parser");
 const { environment } = require("./config");
 const isProduction = environment === "production";
 
-const routes = require("./api");
+const routes = require("./routes");
 
 const app = express();
 
